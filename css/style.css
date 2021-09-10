@@ -87,6 +87,18 @@
     width: 60%;
 }
 
+.header .nav_bar li {
+    display: inline;
+    padding: 0 1rem;
+}
+
+.header .nav_bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.header .bt_accedi {}
+
 /* main */
 
 /* hero */
