@@ -3,3 +3,55 @@
     margin: 0;
     padding: 0;
 }
+
+/* debug */
+
+.debug .site_header {
+    height: 100px;
+    background-color: blue;
+}
+
+.debug aside {
+    background-color: red;
+}
+
+.debug .nav_bar {
+    background-color: navy;
+}
+
+/* common */
+
+.site_header {
+    width: 100%;
+}
+
+.content {
+    width: 1170px;
+    margin: auto;
+}
+
+/* header */
+
+.site_header .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.site_header .header {
+    text-align: center;
+}
+
+.header .logo, .nav_bar, .accedi {
+    float: left;
+    color: white;
+    padding: 2rem 0;
+}
+
+.header aside {
+    width: 20%;
+}
+
+.header .nav_bar {
+    width: 60%;
+}
