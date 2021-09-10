@@ -19,6 +19,36 @@
     background-color: navy;
 }
 
+.debug .hero_image {
+    height: 500Px;
+    background-color: lightblue;
+}
+
+.debug .luogo {
+    height: 500Px;
+    background-color: lightcoral;
+}
+
+.debug .dove {
+    height: 500Px;
+    background-color: lightgray;
+}
+
+.debug .fandom {
+    height: 500Px;
+    background-color: lightpink;
+}
+
+.debug .tecnologia {
+    height: 500Px;
+    background-color: lightseagreen;
+}
+
+.debug .site_footer {
+    height: 500Px;
+    background-color: black;
+}
+
 /* common */
 
 .site_header {
@@ -42,7 +72,7 @@
     text-align: center;
 }
 
-.header .logo, .nav_bar, .accedi {
+.header .logo, .header .nav_bar, .header .accedi {
     float: left;
     color: white;
     padding: 2rem 0;
@@ -54,4 +84,67 @@
 
 .header .nav_bar {
     width: 60%;
+}
+
+/* main */
+
+/* hero */
+
+.hero_image {
+    width: 100%;
+    position: relative;
+}
+
+.hero_image .hero_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* luogo */
+
+.image_script, .text_script {
+    text-align: left;
+}
+
+.luogo .image_script {
+    float: left;
+    width: 66.66%;
+}
+
+.luogo .text_script {
+    float: left;
+    width: 33.33%;
+}
+
+/* dove */
+
+.dove .text_script {
+    float: left;
+    width: 33.33%;
+}
+
+.dove .image_script {
+    float: left;
+    width: 66.66%;
+}
+
+/* fandom */
+
+.fandom .image_script {
+    float: left;
+    width: 66.66%;
+}
+
+.fandom .text_script {
+    float: left;
+    width: 33.33%;
+}
+
+/* tecnologoia */
+
+.tecnologia .text_script, .tecnologia .image_script, .tecnologia .call_to_action {
+    text-align: center;
 }
