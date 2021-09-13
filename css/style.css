@@ -66,6 +66,41 @@
     clear: both;
 }
 
+/* utility */
+
+.bg-gray {
+    background-color: #f6f6f6;
+}
+
+.luogo, .dove, .fandom, .tecnologia {
+    padding: 7rem 0;
+}
+
+.image_script, .text_script {
+    text-align: left;
+}
+
+.luogo img, .dove img, .fandom img {
+    height: 450px;
+}
+
+.luogo .text_script, .dove .text_script, .fandom .text_script {
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+main p {
+    font-size: large;
+}
+
+main h2 {
+    font-size: 3rem;
+}
+
+.text_script h2 {
+    margin-bottom: 1.5rem;
+}
+
 /* header */
 
 .site_header {
@@ -115,6 +150,7 @@
 
 .header .bt_accedi {
     background-color: white;
+    border: none;
     padding: 0.5rem 1rem;
     border-radius: 30px;
     font-size: 0.9rem;
@@ -145,7 +181,7 @@
 .hero_image .hero_text h1 {
     color: white;
     margin: 2rem 0;
-    font-size: xxx-large;
+    font-size: 3rem;
 }
 
 .hero_image .hero_text p {
@@ -158,6 +194,7 @@
 
 .hero_image .hero_text .scarica {
     background-color: white;
+    border: none;
     padding: 1rem 1.5rem;
     border-radius: 30px;
     margin: 1rem;
@@ -165,8 +202,9 @@
 }
 
 .hero_image .hero_text .apri {
-    background-color: black;
+    background-color: #23272a;
     color: white;
+    border: none;
     padding: 1rem 1.5rem;
     border-radius: 30px;
     margin: 1rem;
@@ -175,48 +213,82 @@
 
 /* luogo */
 
-.image_script, .text_script {
-    text-align: left;
-}
-
 .luogo .image_script {
     float: left;
-    width: 66.66%;
+    width: 60%;
 }
 
 .luogo .text_script {
     float: left;
-    width: 33.33%;
+    width: 40%;
 }
 
 /* dove */
 
 .dove .text_script {
     float: left;
-    width: 33.33%;
+    width: 40%;
 }
 
 .dove .image_script {
     float: left;
-    width: 66.66%;
+    width: 60%;
 }
 
 /* fandom */
 
 .fandom .image_script {
     float: left;
-    width: 66.66%;
+    width: 60%;
 }
 
 .fandom .text_script {
     float: left;
-    width: 33.33%;
+    width: 40%;
 }
 
 /* tecnologoia */
 
 .tecnologia .text_script, .tecnologia .image_script, .tecnologia .call_to_action {
     text-align: center;
+}
+
+.tecnologia .image_script {
+    margin: 1rem 0;
+}
+
+.tecnologia .text_script {
+    padding: 0 3rem;
+}
+
+.tecnologia img {
+    width: 100%;
+}
+
+.tecnologia .call_to_action {
+    position: relative;
+    padding-top: 2.5rem;
+}
+
+.tecnologia .call_to_action img {
+    height: 53px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tecnologia .call_to_action h3 {
+    font-size: 1.7rem;
+}
+
+.tecnologia .call_to_action button {
+    background-color: #5865f2;
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    margin: 2rem;
+    font-size: large;
 }
 
 /* footer */
