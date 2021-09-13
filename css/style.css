@@ -332,17 +332,27 @@ main h2 {
     list-style: none;
     padding: 0.5rem 0;
     padding-right: 1rem;
+    color: #5865f2;
 }
 
 .top_footer a {
     text-decoration: none;
     color: white;
+    transition: text-decoration;
+}
+
+.top_footer a:hover {
+    text-decoration: underline;
 }
 
 .top_footer .lingua {
     height: 1rem;
     line-height: 1rem;
     margin-bottom: 1rem;
+}
+
+.lingua label, .lingua select {
+    cursor: pointer;
 }
 
 .top_footer .lingua img {
@@ -374,10 +384,16 @@ main h2 {
 }
 
 .bottom_footer .registrati button {
-    background-color: #5865f2;
+    background-color: #23272a;
     color: white;
     border: none;
     padding: 1rem 1.5rem;
     border-radius: 30px;
     font-size: large;
+    cursor: pointer;
+    transition: all;
+}
+
+.bottom_footer .registrati button:hover {
+    background-color: #5865f2;
 }
