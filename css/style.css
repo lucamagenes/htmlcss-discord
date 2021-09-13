@@ -73,7 +73,7 @@
 }
 
 .luogo, .dove, .fandom, .tecnologia {
-    padding: 7rem 0;
+    padding: 12rem 0;
 }
 
 .image_script, .text_script {
@@ -110,6 +110,24 @@ button {
 
 button:hover {
     box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.wave img {
+    filter: invert(98%) sepia(100%) saturate(0%) hue-rotate( 90deg) brightness(107%) contrast(93%);
+    position: absolute;
+    top: 1225px;
+}
+
+.wave_invert img {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(191deg) brightness(106%) contrast(101%);
+    position: absolute;
+    top: 2095px;
+}
+
+.wave_tecno img {
+    filter: invert(98%) sepia(100%) saturate(0%) hue-rotate( 90deg) brightness(107%) contrast(93%);
+    position: absolute;
+    top: 2930px;
 }
 
 /* header */
@@ -245,6 +263,10 @@ button:hover {
 
 /* luogo */
 
+.luogo {
+    padding-top: 5rem;
+}
+
 .luogo .image_script {
     float: left;
     width: 60%;
@@ -280,6 +302,10 @@ button:hover {
 }
 
 /* tecnologoia */
+
+.tecnologia {
+    padding-bottom: 5rem;
+}
 
 .tecnologia .text_script, .tecnologia .image_script, .tecnologia .call_to_action {
     text-align: center;
