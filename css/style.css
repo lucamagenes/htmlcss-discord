@@ -84,9 +84,14 @@
     height: 450px;
 }
 
-.luogo .text_script, .dove .text_script, .fandom .text_script {
-    padding-left: 5rem;
-    padding-top: 1rem;
+.luogo .text_script, .fandom .text_script {
+    padding-left: 8.5rem;
+    padding-top: 2rem;
+}
+
+.dove .text_script {
+    padding-right: 8.5rem;
+    padding-top: 2rem;
 }
 
 main p {
@@ -94,7 +99,7 @@ main p {
 }
 
 main h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .text_script h2 {
@@ -316,7 +321,7 @@ button:hover {
 }
 
 .tecnologia .text_script {
-    padding: 0 3rem;
+    padding: 0 7rem;
 }
 
 .tecnologia img {
