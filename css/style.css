@@ -345,7 +345,7 @@ button:hover {
 }
 
 .tecnologia .call_to_action button {
-    background-color: #23272a;
+    background-color: #5865f2;
     color: white;
     border: none;
     padding: 1rem 1.5rem;
@@ -356,7 +356,8 @@ button:hover {
 }
 
 .tecnologia .call_to_action button:hover {
-    background-color: #5865f2;
+    background-color: hsl(235, calc(var(--saturation-factor, 1)*86.1%), 71.8%);
+    ;
 }
 
 /* footer */
@@ -452,7 +453,7 @@ button:hover {
 }
 
 .bottom_footer .registrati button {
-    background-color: #23272a;
+    background-color: #5865f2;
     color: white;
     border: none;
     padding: 1rem 1.5rem;
@@ -462,5 +463,6 @@ button:hover {
 }
 
 .bottom_footer .registrati button:hover {
-    background-color: #5865f2;
+    background-color: hsl(235, calc(var(--saturation-factor, 1)*86.1%), 71.8%);
+    ;
 }
