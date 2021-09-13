@@ -101,6 +101,17 @@ main h2 {
     margin-bottom: 1.5rem;
 }
 
+button {
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+}
+
+button:hover {
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
 /* header */
 
 .site_header {
@@ -137,11 +148,17 @@ main h2 {
 .header .nav_bar li {
     display: inline;
     padding: 0 1rem;
+    transition: all;
+}
+
+.header .nav_bar li:hover {
+    text-decoration: underline;
 }
 
 .header .nav_bar a {
     text-decoration: none;
     color: white;
+    font-weight: 600;
 }
 
 .header .accedi {
@@ -154,6 +171,11 @@ main h2 {
     padding: 0.5rem 1rem;
     border-radius: 30px;
     font-size: 0.9rem;
+    transition: color;
+}
+
+.header .bt_accedi:hover {
+    color: #5865f2;
 }
 
 /* main */
@@ -199,6 +221,11 @@ main h2 {
     border-radius: 30px;
     margin: 1rem;
     font-size: large;
+    transition: color;
+}
+
+.hero_image .hero_text .scarica:hover {
+    color: #5865f2;
 }
 
 .hero_image .hero_text .apri {
@@ -209,6 +236,11 @@ main h2 {
     border-radius: 30px;
     margin: 1rem;
     font-size: large;
+    transition: background-color;
+}
+
+.hero_image .hero_text .apri:hover {
+    background-color: #36393f;
 }
 
 /* luogo */
@@ -282,13 +314,18 @@ main h2 {
 }
 
 .tecnologia .call_to_action button {
-    background-color: #5865f2;
+    background-color: #23272a;
     color: white;
     border: none;
     padding: 1rem 1.5rem;
     border-radius: 30px;
     margin: 2rem;
     font-size: large;
+    transition: background-color;
+}
+
+.tecnologia .call_to_action button:hover {
+    background-color: #5865f2;
 }
 
 /* footer */
@@ -390,7 +427,6 @@ main h2 {
     padding: 1rem 1.5rem;
     border-radius: 30px;
     font-size: large;
-    cursor: pointer;
     transition: all;
 }
 
