@@ -293,8 +293,14 @@ main h2 {
 
 /* footer */
 
+.site_footer {
+    background-color: #23272a;
+    padding: 5rem 0;
+}
+
 .top_footer {
-    border-bottom: 1px solid purple;
+    border-bottom: 1px solid #5865f2;
+    padding-bottom: 2rem;
 }
 
 .top_footer .contatti {
@@ -307,8 +313,19 @@ main h2 {
     width: 16.66%;
 }
 
+.top_footer .contatti h3 {
+    color: #5865f2;
+    font-size: 1.7rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+}
+
 .top_footer .social li {
     display: inline;
+}
+
+.top_footer .social .fab {
+    font-size: 1.5rem;
 }
 
 .top_footer li {
@@ -325,6 +342,7 @@ main h2 {
 .top_footer .lingua {
     height: 1rem;
     line-height: 1rem;
+    margin-bottom: 1rem;
 }
 
 .top_footer .lingua img {
@@ -353,4 +371,13 @@ main h2 {
     float: left;
     width: 50%;
     text-align: right;
+}
+
+.bottom_footer .registrati button {
+    background-color: #5865f2;
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    font-size: large;
 }
